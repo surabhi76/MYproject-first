@@ -1,0 +1,8 @@
+// Mongodb for insertind data into db
+use Flipkart
+show dbs
+
+db.items.insertMany([{name : Samsung X5, price: 25000, ratings: 3.5, qty:220, sold:140}, {name : MotoG5, 
+price: 25000, ratings: 4.5, qty:220, sold:180}, {name : Realme X7, price: 125000, ratings: 2.5, qty:220, sold:90}  ])
+
+db.items.find()
